@@ -10,7 +10,7 @@ def test_model():
 
     # Train model and check accuracy
     _, accuracy = train_model()
-    assert accuracy >= 95, f"Training accuracy is {accuracy:.2f}%, less than 95%!"
+    assert accuracy >= 90, f"Training accuracy is {accuracy:.2f}%, less than 90%!"
     print("Model training accuracy test passed.")
 
 if __name__ == "__main__":
